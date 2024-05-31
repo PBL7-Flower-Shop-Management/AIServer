@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "exalted-pattern-400909",
+  "private_key_id": "3eaa10f4b2b45cd29dc7392df0123a91e66fcda0",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCYsDSUn7OVnnnQ\n5l2vhwDu/kJPaiUW7wqvzcT57eiUclfBCpJlRvvMcTJiLsIqC0vZOf6z7cj+p3/W\n3Gi3YTQKLaTp2tJh7W4j/w/oPEWnYknYUMma34l8KI2MM+bN5/LUnXTazSLZSewY\na/e/VvJDJc46+xXiYyNrrnifwzj4i/no5dx+6v3bgm7UADtnTKYwETgUgG+lKqDQ\naKZ/ctc0eh4UuQby1KLy3x9s0MVKaLphj+2Fyq7s351f4wbrymu3kQUTbe5byGpl\nlS1GLPAP8KdSTim4zPuPxsuXSk4peRatlN015oRN5PDTDvAtd4ESlj5fVqSTCcNM\n8BA4EHYnAgMBAAECggEAFA1FRSTD/NOBw+wSREmX1yBlAkY6S2IRJo1WCkyIIsFG\nwlSVF9/T6Za5ZdN7hEdU1Vjxw3IS11PqogOdbO0YXHh/aTFnjPIVaNIc+1lkUbBt\najm8gC5NwT8Xd7Yeis6klponDSUA0psL+m5owXlgT26DlZNWiGiPRPD2E7pw8j2b\nzS/n3mpHwx+bN2acA1fjheGkGpENxyBzjlhxW72QmhfmbB/lJi6hDloZyxwXnxRr\ngsevikJMHC6vpfH5u3H51hj5RAbEFgIHlRsU8RKhlkzOTc9Cweq3iCBTYWAJyK8v\n/pjo5nfZRXGxyYHXX3Meyo1m9OTNjN6kT5w7Ld3UgQKBgQDGFGQV5tPGnKlkOkVu\nZ2+0a02+50cBHDZCHzS9+9N6vJtpag8qoFApaD9XE18GiR3J7GrrjdkQf79s/Gwf\n8F7DyPJWryORRLX3RablxU/CHlslBZfcvCLC9kulhRjToDdihS/002/L29zcxt4n\neLve1YekEP0boIv1pJ1Jx3PLcQKBgQDFVfaUjfQNe3dAaGsuvazAqFU9uKvWmGUe\n1ki89oHshUKDNf8hMC3hvJSD3JSu1jEfmLP9RUOklDnQWtmLU8ANYMtbPILqDjRu\nEvZZOfdQqE1PsjFs9PeDbmAx9Tg+6Cv9bzz8ZC+9Aef6LIYauPElijphmr2P4KOa\nY/l1gy6fFwKBgGNrTKjpiJYBf8v8q2i0pg6KZSVSdAMMo/cgLprE0Oqjy+VnBGHC\nwTlnR5Nu950SKU92SFwegDqVxADx2VtWjFn8fBYiJdn+AM8xuIlPNa8bCWhVnFmA\nXHo6oNFdMo7VtbbPXrilf1F08zAk6NAq+zDnQAOLO18of9c1XnTvlSEhAoGBAJv8\nI3mx6+RsYAtNfsvnqpJvfVHYlByBQg1qHP0hbfnkLHtDR3SYfOwfANZqmizJqvLq\n5fuhsKJ7eGe2KJf1j64DgTuRTXpt2AvaeVh2dYQQRWxl0qPpz2zY5rkWuWsgYwVl\n1LM9Dm88/n3GjAq7fgLKjPNyOb1tOGVl+V5mX4fpAoGBAIBrGeTXIfbxEgbYxMX2\nuo2Kq11nIGyjF3Fjsf3IdPguXrh3Jtrf7L7VinSMIp4qqwVpsbGLqIswwpdz56Qf\na9+cqbH175XN1+wv17pZ9hvB9VP63vK3DQWqya8VJOr0rwWjTJyYP9a+z6bM/csZ\nVyy8M4RguDl/68zE7IfFxLL8\n-----END PRIVATE KEY-----\n",
+  "client_email": "criminalmanagement@exalted-pattern-400909.iam.gserviceaccount.com",
+  "client_id": "117714943032902437387",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/criminalmanagement%40exalted-pattern-400909.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
