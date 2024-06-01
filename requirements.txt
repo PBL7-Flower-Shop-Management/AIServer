@@ -1,8 +1,7 @@
 Flask==3.0.3
 google_api_python_client==2.108.0
 numpy==1.26.4
-opencv_contrib_python==4.8.1.78
-opencv_python==4.8.1.78
+opencv-python-headless==4.8.1.78
 protobuf==3.19.6
-tensorflow==2.11.0
+tensorflow-cpu==2.11.0
 gunicorn==21.2.0
