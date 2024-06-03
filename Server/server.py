@@ -43,17 +43,17 @@ def is_file_size_allowed(file):
 @app.route('/detect', methods=['POST'])
 def detect_flower():
     if 'FlowerImage' not in request.files:
-        return jsonify({"error": "Không có ảnh nào được cung cấp!"}), 400
-    
+        return jsonify({"message": "Không có ảnh nào được cung cấp!"}), 400
+
     file = request.files['FlowerImage']
     if file.filename is None or not file.filename:
-        return jsonify({"error": "Không có ảnh nào được cung cấp!"}), 400
+        return jsonify({"message": "Không có ảnh nào được cung cấp!"}), 400
     
     if not allowed_file(file):
-        return jsonify({"error": "File bạn tải lên không phải là 1 ảnh hoặc phần đuôi mở rộng không hợp lệ!"}), 400
+        return jsonify({"message": "File bạn tải lên không phải là 1 ảnh hoặc phần đuôi mở rộng không hợp lệ!"}), 400
     
     if not is_file_size_allowed(file):
-        return jsonify({"error": f"File bạn tải lên vượt quá kích thước cho phép ({globalVariables.MAX_FILE_SIZE_MB} MB)!"}), 400
+        return jsonify({"message": f"File bạn tải lên vượt quá kích thước cho phép ({globalVariables.MAX_FILE_SIZE_MB} MB)!"}), 400
 
     if not globalVariables.isTrain:
       if download_model_from_folder(globalVariables.Model_folder_id, globalVariables.model_file):
@@ -62,9 +62,9 @@ def detect_flower():
       else:
         return jsonify({"message": "Mô hình AI chưa được huấn luyện!"}), 200
 
-    isPredictable, result, image = detect(file)
+    isPredictable, result = detect(file)
 
     if isPredictable:
-        return jsonify({'isPredictable': isPredictable, 'label': result['label'], 'confidence': result['confidence'], 'image': image}), 200
+        return jsonify({'isPredictable': isPredictable, 'result': result}), 200
     else:
-        return jsonify({'isPredictable': isPredictable, 'result': result, 'image': image}), 200
+        return jsonify({'isPredictable': isPredictable, 'result': result}), 200

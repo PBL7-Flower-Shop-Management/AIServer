@@ -60,7 +60,6 @@ def download_model_from_folder(folder_id, save_folder):
     items = results.get('files', [])
 
     if not items:
-        print('No files found.')
         return False
     else:
         # Create the save folder if it doesn't exist
